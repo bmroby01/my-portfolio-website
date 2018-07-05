@@ -4,6 +4,22 @@ body {
     color: #095256;
 }
 
+/***** GRID ****/
+
+.full-width {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 700px;
+    float: left;
+}
+
+.third-width {
+    width: 460px;
+    float: left;
+}
 /***** HEADER *****/
 
 header {
@@ -17,7 +33,7 @@ header {
     font-size: 60px;
     font-weight: bold;
     width: 800px;
-    padding: 300px 0px 0px 400px;
+    padding: 300px 0px 0px 390px;
     margin-top: 100px;
     margin-bottom: 0px;
     height: 70px;
@@ -30,9 +46,75 @@ header {
     height: 70px;
     width: 800px;
     padding: 0px 0px 0px 300px;
-    font-size: 48px;
+    font-size: 50px;
     text-align: center;
     font-family: 'Roboto Slab', serif;
     font-weight: 200;
     margin-top: 0px;
+}
+
+/***** PORTFOLIO *****/
+
+#portfolio {
+    height: 1400px;
+    background: white;
+}
+
+.jubilee-austen, .rogue-pickings, .holstee-manifesto{
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.jubilee-austen-image, .holstee-manifesto-image{
+    height: 400px;
+    margin: 0 auto;
+    padding: 5px 10px 5px 40px;
+}
+
+.rogue-pickings-image {
+    height: 400px;
+    padding: 20px 20px 20px 20px;
+}
+
+.jubilee-austen p, .rogue-pickings p, .holstee-manifesto p {
+    padding: 20px 0px;
+}
+
+.jubilee-austen h3, .rogue-pickings h3, .holstee-manifesto h3 {
+    padding: 20px 0px;
+}
+
+/***** ABOUT *****/
+
+#about-me h2 {
+    width: 1400px;
+    padding: 20px 100px 5px 150px;
+    margin: 0 auto;
+}
+
+#about-me {
+    background: #087e8b;
+    height: 450px;
+    padding: 5px 0px 20px 0px;
+}
+
+.headshot {
+    height: 300px;
+    padding: 50px 100px;
+}
+
+/***** FOLLOW *****/
+
+#follow {
+    list-style: none;
+}
+
+#follow ul li {
+    display: inline-block;
+}
+
+footer .full-width {
+    width: 1400px;
+    text-align: center;
 }
