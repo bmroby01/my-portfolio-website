@@ -1,6 +1,6 @@
 /***** BASE STYLES *****/
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Arvo', serif;
     color: #095256;
 }
 
@@ -17,40 +17,67 @@ body {
 }
 
 .third-width {
-    width: 460px;
+    width: 350px;
     float: left;
 }
 /***** HEADER *****/
 
-header {
+#welcome {
     height: 730px;
-    background: url('../img/hero-image.png');
+    background: url('../img/desk-photo.jpg');
     background-size: cover;
     overflow: auto;
 }
 
-.welcome h1 {
+#welcome h1 {
     font-size: 60px;
-    font-weight: bold;
-    width: 800px;
-    padding: 300px 0px 0px 390px;
+    font-weight: 800;
+    width: 900px;
+    padding: 60px 0px 0px 20px;
     margin-top: 100px;
     margin-bottom: 0px;
-    height: 70px;
-    font-family: 'Roboto Slab', serif;
-    color: #bdbf09;
+    height: 90px;
+    color: #095256;
     line-height: 5px;
+    font-family: 'Arvo', serif;
 }
 
-.welcome h2 {
-    height: 70px;
-    width: 800px;
-    padding: 0px 0px 0px 300px;
-    font-size: 50px;
+#welcome h2 {
+    height: 120px;
+    width: 680px;
+    padding: 0px 0px 0px 15px;
+    font-size: 40px;
     text-align: center;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Arvo', serif;
     font-weight: 200;
     margin-top: 0px;
+    word-spacing: 2px;
+}
+
+#welcome h1 span {
+    color: white;
+}
+
+#welcome h2 span {
+    color: white;
+    text-transform: uppercase;
+}
+
+nav {
+    float: right;
+    padding: 25px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #095256;
+    padding-left: 15px;
 }
 
 /***** PORTFOLIO *****/
@@ -60,23 +87,37 @@ header {
     background: white;
 }
 
-.jubilee-austen, .rogue-pickings, .holstee-manifesto{
-    height: 100px;
-    margin: 0 auto;
+#portfolio h2 {
+    width: 1400px;
     text-align: center;
+    font-size: 36px;
 }
-
-.jubilee-austen-image, .holstee-manifesto-image{
+.jubilee-austen, .rogue-pickings, .holstee-manifesto{
     height: 400px;
     margin: 0 auto;
-    padding: 5px 10px 5px 40px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.jubilee-austen-image {
+    height: 400px;
+    margin: 0px 20px 10px 50px;
 }
 
 .rogue-pickings-image {
     height: 400px;
-    padding: 20px 20px 20px 20px;
+    margin: 0px 20px 10px 20px;
 }
 
+.holstee-manifesto-image {
+    height: 400px;
+    margin: 0px 20px 10px 70px;
+}
+
+.jubilee-austen-image, .holstee-manifesto-image, .rogue-pickings-image{
+    border: 3px solid #087e8b;
+    padding: 0;
+}
 .jubilee-austen p, .rogue-pickings p, .holstee-manifesto p {
     padding: 20px 0px;
 }
@@ -89,32 +130,95 @@ header {
 
 #about-me h2 {
     width: 1400px;
-    padding: 20px 100px 5px 150px;
+    text-align: center;
     margin: 0 auto;
+    color: white;
+    font-size: 36px;
 }
 
 #about-me {
     background: #087e8b;
     height: 450px;
-    padding: 5px 0px 20px 0px;
+    padding: 15px 0px 20px 0px;
 }
 
 .headshot {
     height: 300px;
-    padding: 50px 100px;
+    margin: 50px 100px;
 }
 
+#personal-story {
+    height: 300px;
+    margin: 40px 50px 50px 0px;
+}
+
+#personal-story h4 {
+    font-size: 28px;
+    color: white;
+    padding-top: 15px;
+}
+
+#personal-story p {
+    font-size: 24px;
+    color: white;
+    padding-top: 5px;
+}
 /***** FOLLOW *****/
 
-#follow {
+#footer {
+    width: 1400;
+    padding: 5px 10px;
+}
+
+#footer h4 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+#contact #email-header {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    margin: -30px 0 5px 0;
+}
+
+#contact #follow-header {
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 44px;
+    margin: 40px 0 0 0;
+}
+
+#contact #email-header {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    margin: -30px 0 5px 0;
+}
+
+#footer #meet-header {
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 44px;
+    margin: 40px 0 0 0;
+  }
+
+#footer a {
+    text-decoration: none;
+    color: #095256;
+    font-size: 20px;
+}
+
+#footer ul {
     list-style: none;
 }
 
-#follow ul li {
+#footer: ul li {
     display: inline-block;
 }
 
-footer .full-width {
-    width: 1400px;
-    text-align: center;
+#footer ul img {
+    display: inline-block;
+    padding: 3px;
 }

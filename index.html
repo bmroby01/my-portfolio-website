@@ -4,16 +4,31 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
-        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Arvo:400,700" rel="stylesheet">
         <title>Brianna Roby | Developer</title>
 
     </head>
     <body>
 
-        <header class="welcome">
-            <h1><span>Hi!</span> I'm Brianna Roby!</h1>
-            <h2>I'm a developer, designer, and <span>big</span> thinker in Louisville, KY</h2>
+        <header id="welcome">
+          <div class="full-width">
+              <div class="half-width">
+                  <h1><span>Hello!</span> I'm Brianna Roby!</h1>
+                  <h2>I'm a developer, designer, and <span>big</span> thinker in Louisville, KY</h2>
+              </div>
+              <div class="half-width">
+                  <nav>
+                      <ul>
+                          <li><a href="#welcome">Home</a></li>
+                          <li><a href="#portfolio">My Portfolio</a></li>
+                          <li><a href="#about-me">About Me</a></li>
+                          <li><a href="#follow">Contact</a></li>
+                      </ul>
+                  </nav>
+              </div>
+          </div>
         </header>
 
         <section id=portfolio>
@@ -48,31 +63,35 @@
                 <img src="img/headshot.jpg" alt="Headshot" class="headshot"/>
             </div>
             <div class="half-width">
-                <h4>I love to code!</h4>
-                <p>After working as a Technical Support Agent for a SaaS company for over two years, I realized I  had come to a place where I wasn't learning or growing much anymore. And that is not where I like to be! So, I decided to start learning how to code. I signed up with SkillCrush and never looked back! I absolutely fell in love with coding, finding myself staying up much later than planned to work on my courses and projects, and moving much more quickly through the course than expected.
+                <div id="personal-story">
+                    <h4>I love to code!</h4>
+                    <p>After working as a Technical Support Agent for a SaaS company for over two years, I realized I  had come to a place where I wasn't learning or growing much anymore. And that is not where I like to be! So, I decided to start learning how to code. I signed up with SkillCrush and never looked back! I absolutely fell in love with coding, finding myself staying up much later than planned to work on my courses and projects, and moving much more quickly through the course than expected.
+                </div>
             </div>
           </div>
           </section>
 
-          <footer class="full-width">
-              <div class="third-width">
-                  <h4>Hire me</h4>
-                  <a href="mailto:brianna124@gmail.com">brianna124@gmail.com</a>
-              </div>
-              <div class="third width">
-                  <h4>Follow me</h4>
-                  <ul id="follow">
-                      <li><a href="https://twitter.com/MorningBell4" target="_blank"><img src="img/twitter.png" alt="Twitter icon" /></a></li>
-                      <li><a href="https://www.linkedin.com/in/briannaroby/" target="_blank"><img src="img/linkedin.png" alt="LinkedIn icon" /></a></li>
-                      <li><a href="https://github.com/bmroby01" target="_blank"><img src="img/github.png" alt="GitHub icon" /></a></li>
-                  </ul>
-              </div>
-              <div class="third-width">
-                  <h4>Meet Me</h4>
-                  <p>Louisville, KY</p>
-                  <p>Let's go to meetups together!</p>
-              </div>
-          </footer>
+          <section id="footer">
+              <footer class="full-width">
+                  <div class="third-width">
+                      <h4 id="hire-header">Hire me</h4>
+                      <a href="mailto:brianna124@gmail.com">brianna124@gmail.com</a>
+                  </div>
+                  <div class="third width">
+                      <h4 id="follow-header">Follow me</h4>
+                      <ul>
+                          <li><a href="https://twitter.com/MorningBell4" target="_blank"><img src="img/twitter.png" alt="Twitter icon" /></a></li>
+                          <li><a href="https://www.linkedin.com/in/briannaroby/" target="_blank"><img src="img/linkedin.png" alt="LinkedIn icon" /></a></li>
+                          <li><a href="https://github.com/bmroby01" target="_blank"><img src="img/github-logo.png" alt="GitHub icon" /></a></li>
+                      </ul>
+                  </div>
+                  <div class="third-width">
+                      <h4 id="meet-header">Meet Me</h4>
+                      <p>Louisville, KY</p>
+                      <p>Let's go to meetups together!</p>
+                  </div>
+              </footer>
+          </section>
 
     </body>
 </html>

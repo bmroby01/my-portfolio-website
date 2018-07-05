@@ -1,0 +1,51 @@
+Received: from BN1PR05MB438.namprd05.prod.outlook.com (2603:10b6:102:2::17) by
+ CO1PR05MB443.namprd05.prod.outlook.com with HTTPS via
+ CO2PR05CA0007.NAMPRD05.PROD.OUTLOOK.COM; Wed, 27 Jun 2018 12:49:08 +0000
+Received: from DM6PR05CA0021.namprd05.prod.outlook.com (2603:10b6:5:f8::34) by
+ BN1PR05MB438.namprd05.prod.outlook.com (2a01:111:e400:2e::12) with Microsoft
+ SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id 15.20.906.17; Wed, 27
+ Jun 2018 12:49:06 +0000
+Received: from QB1CAN01FT009.eop-CAN01.prod.protection.outlook.com
+ (2a01:111:f400:7e5c::207) by DM6PR05CA0021.outlook.office365.com
+ (2603:10b6:5:f8::34) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id 15.20.930.9 via Frontend
+ Transport; Wed, 27 Jun 2018 12:49:05 +0000
+Received: from a1i849.smtp2go.com (43.228.187.81) by
+ QB1CAN01FT009.mail.protection.outlook.com (10.152.120.113) with Microsoft
+ SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id 15.20.906.15 via
+ Frontend Transport; Wed, 27 Jun 2018 12:49:04 +0000
+From: IT Pilots Help <help@itpilots.com>
+To: Mitch Newman <MNewman@itpilots.com>, Josh Lipman <jlipman@itpilots.com>,
+	Nik Pentchev <Nik@itpilots.com>, Greg McCarthy <gmccarthy@itpilots.com>
+Subject: Service Ticket #20726/has been submitted to the help desk
+Thread-Topic: Service Ticket #20726/has been submitted to the help desk
+Thread-Index: AQHUDhU9dae0zKrtlEuFo6Rii19FMQ==
+Date: Wed, 27 Jun 2018 12:03:22 +0000
+Message-ID: <IP-0A0A0221Jp049V1l00001cf0@ip-0A0A0221>
+Content-Language: en-CA
+X-MS-Exchange-Organization-AuthSource: QB1CAN01FT009.eop-CAN01.prod.protection.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id: 93c4f7c5-353e-4349-10e1-08d5dc2c5dbd
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-exchange-organization-originalclientipaddress: 43.228.187.81
+x-ms-exchange-organization-originalserveripaddress: 10.152.120.113
+received-spf: Pass (protection.outlook.com: domain of itpilots.com designates
+ 43.228.187.81 as permitted sender) receiver=protection.outlook.com;
+ client-ip=43.228.187.81; helo=a1i849.smtp2go.com;
+x-ms-traffictypediagnostic: BN1PR05MB438:
+x-ms-exchange-crosstenant-originalarrivaltime: 27 Jun 2018 12:49:04.6511 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Internet
+x-ms-exchange-crosstenant-id: 78da1cd3-42da-40ae-824c-e647c374cbb5
+x-ms-exchange-crosstenant-network-message-id: 93c4f7c5-353e-4349-10e1-08d5dc2c5dbd
+x-ms-exchange-transport-crosstenantheadersstamped: BN1PR05MB438
+x-ms-exchange-transport-endtoendlatency: 00:00:03.7667985
+X-Microsoft-Exchange-Diagnostics: 1;CO1PR05MB443;27:VwTdXDy6a/GlGITByt9P4ITzurJ8wRDKGQegrnBT6XEj6ksnZGmnR9CmpQL8EXOR1tb++/x33vwgCVvE+XWDpxYGrnVd15yI3XrMPDr2/QdLc7k77OuyS2CbIU3h0EBH
+X-Microsoft-Antispam-Message-Info: J/ShFcoLm1PznonCcjld2km1O4RhncIO4McDiI7ILJJxzxvR6dUHBzwu5OuSkiJAVmTSv5rQLMD3xfZnHc1Uiu9Jujofhe0aEiQyrEA5nEiKXjX52sVDhJ+J6KnYrzbJgYG1Wlxw+THFRXFtU48XCbogrn9nca50PFckxuFSUtA99HgEe7Q54ZAwCEI7Pq1afrUw/K4SvwXUTk8fm2jPoFi111M4ZPdulLuvOIk2D3flsJrhdUxpYtL9hDJqz7jeLd/tHN1jzNkZqpkh6zTcb3X/Osfp87WZqePIikT3BWZ3Tx2ugZ2ZxX02xmuc3Hj3ysoUGuHDpWefatWj7hd6XAbAaq0lTaWLY+xtfhHxJlmvQW6XTtSFt/hb7LuaIi3G
+Content-Type: multipart/alternative;
+	boundary="_000_IP0A0A0221Jp049V1l00001cf0ip0A0A0221_"
+MIME-Version: 1.0
+
