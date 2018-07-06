@@ -168,28 +168,27 @@ nav ul li a {
 #contact .full-width{
     width: 1400px;
     height: 340px;
-    margin: 10px 10px;
+    margin: 20px 0px 10px 100px;
 }
 
 #contact #hire {
-    margin: 0px 0px 0px 250px;
-}
-
-#contact #hire img {
-    margin: 0px 0px 0px 20px;
+    text-align: center;
 }
 
 #contact #meet h4, #contact #meet p {
     text-align: center;
 }
 
+#contact a {
+    margin: 0px 0px 0px -10px;
+}
+
 #contact #follow {
     text-align: center;
-    margin: 0px -100px 0px 50px;
 }
 
 #contact #meet {
-    margin: 0px -150px 0px 100px;
+    margin: 0px 20px 0px 108px;
 }
 
 #contact h4 {
@@ -199,6 +198,7 @@ nav ul li a {
 
 #contact ul {
     list-style: none;
+    margin: 0px 20px 0px 0px;
 }
 
 #contact ul li {
