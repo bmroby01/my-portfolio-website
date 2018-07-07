@@ -86,6 +86,7 @@ nav ul li a {
 #portfolio {
     height: 1400px;
     background: white;
+    clear: both;
 }
 
 #portfolio h2 {
@@ -169,6 +170,11 @@ nav ul li a {
     width: 1400px;
     height: 340px;
     margin: 20px 0px 10px 100px;
+
+}
+
+#contact {
+    border-top: 4px dotted #095256;
 }
 
 #contact #hire {
@@ -220,4 +226,11 @@ nav ul li a {
 #contact #copyright {
     text-align: center;
     width: 1400px;
+}
+
+/***** NAV *****/
+
+#nav {
+    float: right;
+    height: 100px;
 }
