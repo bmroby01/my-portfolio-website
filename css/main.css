@@ -17,7 +17,7 @@ body {
 }
 
 .third-width {
-    width: 400px;
+    width: 440px;
     float: left;
 }
 
@@ -141,6 +141,7 @@ nav ul li a {
 #about-me {
     background: #087e8b;
     height: 500px;
+    overflow: hidden;
 }
 
 .headshot {
@@ -150,7 +151,6 @@ nav ul li a {
 
 #personal-story {
     height: 300px;
-
 }
 
 #personal-story h4 {
@@ -162,7 +162,6 @@ nav ul li a {
 #personal-story p {
     font-size: 24px;
     color: white;
-    padding-top: -5px;
 }
 /***** FOLLOW *****/
 
@@ -170,7 +169,7 @@ nav ul li a {
     width: 1400px;
     height: 340px;
     margin: 20px 0px 10px 100px;
-
+    overflow: hidden;
 }
 
 #contact {
@@ -225,7 +224,7 @@ nav ul li a {
 
 #contact #copyright {
     text-align: center;
-    width: 1400px;
+    width: 1500px;
 }
 
 /***** NAV *****/
