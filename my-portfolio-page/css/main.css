@@ -6,11 +6,6 @@ body {
 
 /***** GRID ****/
 
-.full-width {
-    width: 1400px;
-    margin: 0 auto;
-}
-
 .half-width {
     width: 700px;
     float: left;
@@ -23,47 +18,13 @@ body {
 
 /***** HEADER *****/
 
-#welcome {
-    height: 730px;
-    background: url('../img/background-image.jpg');
-    background-size: cover;
-    overflow: auto;
+#nav {
+    width: auto;
+    height: 50px;
+    background-color: #f0f0f0;
 }
-
-#welcome h1 {
-    font-size: 60px;
-    font-weight: 800;
-    padding: 10px 0px 0px 300px;
-    height: 40px;
-    font-family: 'Arvo', serif;
-    color: black;
-}
-
-#welcome h2 {
-    height: 100px;
-    width: 1000px;
-    padding: 0px 0px 0px 180px;
-    font-size: 40px;
-    text-align: center;
-    font-family: 'Arvo', serif;
-    font-weight: 200;
-    word-spacing: 2px;
-    color: black;
-}
-
-#welcome h1 span {
-    color: #a300cc;
-}
-
-#welcome h2 span {
-    color: #a300cc;
-    text-transform: uppercase;
-}
-
 nav {
     float: left;
-    margin: 0px 0px 30px 15px;
-    padding-top: 5px;
 }
 
 nav ul li {
@@ -79,46 +40,55 @@ nav ul li a {
     color: #a300cc;
 }
 
+/***** PORTFOLIO *****/
 
-/***** ABOUT *****/
+#portfolio {
+    height: 1400px;
+    background: #f0f0f0;
+}
 
-#about-me h2 {
-    width: 1400px;
+#portfolio h2 {
     text-align: center;
-    margin: 0 auto;
-    color: white;
     font-size: 36px;
-    padding-top: 20px;
+    margin: 0 auto;
+    padding: 20px;
 }
-
-#about-me {
-    background: #a300cc;
-    height: 600px;
-    overflow: hidden;
-}
-
-.headshot {
+.jubilee-austen, .rogue-pickings, .holstee-manifesto{
     height: 400px;
-    margin: 50px 100px;
-    border: 4px dotted #a3a3c2;
-    padding: 6px;
-}
-
-#personal-story {
-    height: 300px;
-}
-
-#personal-story h4 {
-    font-size: 28px;
-    color: white;
-    margin: 60px 0px 0px 5px;
-}
-
-#personal-story p {
+    margin: 0 auto;
+    text-align: center;
     font-size: 24px;
-    color: white;
 }
+
+.jubilee-austen-image {
+    height: 400px;
+    margin: 0px 20px 10px 50px;
+}
+
+.rogue-pickings-image {
+    height: 400px;
+    margin: 0px 20px 10px 20px;
+}
+
+.holstee-manifesto-image {
+    height: 400px;
+    margin: 0px 20px 10px 70px;
+}
+
+.jubilee-austen-image, .holstee-manifesto-image, .rogue-pickings-image{
+    border: 3px solid #087e8b;
+    padding: 0;
+}
+.jubilee-austen p, .rogue-pickings p, .holstee-manifesto p {
+    padding: 20px 0px;
+}
+
+.jubilee-austen h3, .rogue-pickings h3, .holstee-manifesto h3 {
+    padding: 20px 0px;
+}
+
 /***** FOLLOW *****/
+
 
 #contact .full-width{
     width: 1400px;
