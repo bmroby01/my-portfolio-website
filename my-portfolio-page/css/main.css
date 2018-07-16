@@ -43,7 +43,7 @@ nav ul li a {
 /***** PORTFOLIO *****/
 
 #portfolio {
-    height: 1400px;
+    height: 2300px;
     background: #f0f0f0;
 }
 
@@ -51,9 +51,17 @@ nav ul li a {
     text-align: center;
     font-size: 36px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 20px 0px 0px 0px;
 }
-.jubilee-austen, .rogue-pickings, .holstee-manifesto{
+
+#portfolio h3 {
+    text-align: center;
+    font-size: 20px;
+    margin: 0 auto;
+    padding: 0px 0px 40px 0px;
+}
+
+.jubilee-austen, .rogue-pickings, .holstee-manifesto, .lolcat, .magic8ball{
     height: 400px;
     margin: 0 auto;
     text-align: center;
@@ -75,16 +83,27 @@ nav ul li a {
     margin: 0px 20px 10px 70px;
 }
 
-.jubilee-austen-image, .holstee-manifesto-image, .rogue-pickings-image{
-    border: 3px solid #087e8b;
-    padding: 0;
+.lolcat-image {
+    height: 400px;
+    margin: 0px 20px 10px 40px;
 }
-.jubilee-austen p, .rogue-pickings p, .holstee-manifesto p {
+
+.magic8ball-image {
+  height: 400px;
+  margin: 0px 20px 10px 20px;
+}
+
+.jubilee-austen-image, .holstee-manifesto-image, .rogue-pickings-image, .lolcat-image, .magic8ball-image{
+    border: 3px dotted #087e8b;
+    padding: 1px;
+}
+.jubilee-austen p, .rogue-pickings p, .holstee-manifesto p, .lolcat p, .magic8bal p {
     padding: 20px 0px;
 }
 
-.jubilee-austen h3, .rogue-pickings h3, .holstee-manifesto h3 {
+.jubilee-austen h4, .rogue-pickings h4, .holstee-manifesto h4, .lolcat h4, .magic8bal h4 {
     padding: 20px 0px;
+    font-size: 30px;
 }
 
 /***** FOLLOW *****/
